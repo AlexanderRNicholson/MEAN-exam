@@ -1,0 +1,10 @@
+<h3>Put the question and options here:</h3>
+<a href="#!/dashboard">Cancel</a>
+<form>
+  <p>Question: <input ng-model="newPoll.question" type="text"></input></p>
+  <p>Option 1: <input ng-model="newPoll.option1" type="text"></input></p>
+  <p>Option 2: <input ng-model="newPoll.option2" type="text"></input></p>
+  <p>Option 3: <input ng-model="newPoll.option3" type="text"></input></p>
+  <p>Option 4: <input ng-model="newPoll.option4" type="text"></input></p>
+  <button ng-click="addPoll(newPoll)">Create Poll</button>
+</form>
